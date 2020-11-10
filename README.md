@@ -1,4 +1,4 @@
-# macro-ob
+# macro_ob
 
 ## Abstract:
 
@@ -8,14 +8,12 @@ this is only the start of what can be done with macros.
 
 ## example
 
-    use macro-ob;
-	    
-    ob!(
-        sa pbqrq() -> fgevat {
-            "literals are not changed ".gb_fgevat()
+    use macro_ob;   
+    rot!(
+        sa pbqrq() -> Fgevat {
+            "literals are not changed for tecnical resions".gb_fgevat()
         }
     )
-    //main
     fn main {
-        println!("{}", ob!(pbqrq()))
-    }"# macro_ob" 
+        println!("{}", rot!(pbqrq()))
+    }
