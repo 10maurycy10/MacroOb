@@ -1,0 +1,20 @@
+[package]
+name = "macro_ob"
+version = "0.1.0"
+authors = ["10maurycy10 <10maurycy10@users.noreply.github.com>"]
+edition = "2018"
+
+readme = "README.md"
+license  = "GPL-3.0+"
+keywords = ["demo", "ide", "proc-macro", "rot13"]
+description = "a macro to inline rot13 to confuse IDEs"
+homepage = "https://github.com/10maurycy10/MacroOb"
+repository = "https://github.com/10maurycy10/MacroOb.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+rot13 = "0.1.1"
